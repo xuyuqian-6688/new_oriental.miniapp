@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/schoolDatabase/main",
+    "pages/activity/main",
+    "pages/schoolDetail/main",
+    "pages/video/main",
+    "pages/internationalSchoolRankings/main",
+    "pages/tweet/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#778DA3",
+    "borderStyle": "black",
+    "list": [{
+      "text": "学校资料库",
+      "pagePath": "pages/schoolDatabase/main",
+      "iconPath": "static/tabs/school-database.png",
+      "selectedIconPath": "static/tabs/school-database-active.png"
+    }, {
+      "text": "国际学校排行",
+      "pagePath": "pages/internationalSchoolRankings/main",
+      "iconPath": "static/tabs/international-school-rankings.png",
+      "selectedIconPath": "static/tabs/international-school-rankings-active.png"
+    },{
+      "text": "活动专区",
+      "pagePath": "pages/activity/main",
+      "iconPath": "static/tabs/activity.png",
+      "selectedIconPath": "static/tabs/activity-active.png"
+    },{
+      "text": "视频专区",
+      "pagePath": "pages/video/main",
+      "iconPath": "static/tabs/video.png",
+      "selectedIconPath": "static/tabs/video-active.png"
+    }],
+    "position": "bottom"
+  },
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.3.16",
+      "provider": "wxa75efa648b60994b"
+    }
+  }
+}

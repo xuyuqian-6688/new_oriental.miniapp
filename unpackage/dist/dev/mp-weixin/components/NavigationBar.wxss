@@ -1,0 +1,15 @@
+
+.bar.data-v-07d94894{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.mr-s.data-v-07d94894 {
+    padding: 0.5em 0.5em;
+}
+
