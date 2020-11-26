@@ -49,7 +49,9 @@ export default {
         },
         goToTab(e) {
             console.log(e)
-            uni.switchTab({url: e.currentTarget.dataset.tab})
+            uni.switchTab({
+            	url: e.currentTarget.dataset.tab
+            })
         }
     },
 
