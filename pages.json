@@ -1,43 +1,43 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/index/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/schoolDatabase/index",
+			"path": "pages/schoolDatabase/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/activity/index",
+			"path": "pages/activity/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/schoolDetail/index",
+			"path": "pages/schoolDetail/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/video/index",
+			"path": "pages/video/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/internationalSchoolRankings/index",
+			"path": "pages/internationalSchoolRankings/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{
-			"path": "pages/tweet/index",
+			"path": "pages/tweet/main",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
@@ -58,22 +58,22 @@
 	    "borderStyle": "black",
 	    "list": [{
 	      "text": "学校资料库",
-	      "pagePath": "pages/schoolDatabase/index",
+	      "pagePath": "pages/schoolDatabase/main",
 	      "iconPath": "static/tabs/school-database.png",
 	      "selectedIconPath": "static/tabs/school-database-active.png"
 	    }, {
 	      "text": "国际学校排行",
-	      "pagePath": "pages/internationalSchoolRankings/index",
+	      "pagePath": "pages/internationalSchoolRankings/main",
 	      "iconPath": "static/tabs/international-school-rankings.png",
 	      "selectedIconPath": "static/tabs/international-school-rankings-active.png"
 	    },{
 	      "text": "活动专区",
-	      "pagePath": "pages/activity/index",
+	      "pagePath": "pages/activity/main",
 	      "iconPath": "static/tabs/activity.png",
 	      "selectedIconPath": "static/tabs/activity-active.png"
 	    },{
 	      "text": "视频专区",
-	      "pagePath": "pages/video/index",
+	      "pagePath": "pages/video/main",
 	      "iconPath": "static/tabs/video.png",
 	      "selectedIconPath": "static/tabs/video-active.png"
 	    }]
